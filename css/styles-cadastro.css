@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("fundo-pet.jpg"); /* Substitua por sua imagem de fundo */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.register-container {
+  background-color: rgb(2, 97, 121);
+  padding: 40px;
+  border-radius: 60px;
+  box-shadow: 4px 6px rgba(0, 0, 0, 0.808);
+  text-align: center;
+}
+
+.register-container h1 {
+  color: #ffffff;
+}
+
+form {
+  margin-top: 15px;
+  color: #c4c0c0;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #161616;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

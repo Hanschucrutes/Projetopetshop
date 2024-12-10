@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Login Pet Shop</title>
+    <link rel="stylesheet" href="../css/styles-login.css" />
   </head>
   <body>
     <div class="login-container">
-      <h1>Login</h1>
-      <form id="login-form">
+      <h1>Bem-vindo ao nosso Pet Shop!</h1>
+      <form action="pagina-inicial.html" method="post">
         <label for="username">Usuário:</label>
-        <input type="text" id="username" required />
+        <input type="text" id="username" name="username" required />
 
         <label for="password">Senha:</label>
-        <input type="password" id="password" required />
+        <input type="password" id="password" name="password" required />
 
-        <button type="submit">
-          <a href="pagina-inicial.html"> Entrar </a>
-        </button>
+        <button type="submit">Entrar</button>
       </form>
       <p>Não tem uma conta? <a href="register.html">Cadastre-se</a></p>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
