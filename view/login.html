@@ -3,22 +3,22 @@
   <head>
     <title>Login Pet Shop</title>
     <link rel="stylesheet" href="../css/styles-login.css" />
+    <script defer src="../js/script.js"></script>
   </head>
   <body>
     <div class="login-container">
       <h1>Bem-vindo ao nosso Pet Shop!</h1>
+      
       <form action="pagina-inicial.html" method="post">
         <label for="username">Usuário:</label>
-        <input type="text" id="username" name="username" required />
+        <input type="text" id="nome" name="nome" placeholder="Digitar Nome" required />
 
         <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" required />
+        <input type="password" id="password" name="senha" placeholder="Digitar Senha" required />
 
-        <button type="submit">Entrar</button>
+        <button onclick="autenticarUsuario()">Entrar</button>
       </form>
       <p>Não tem uma conta? <a href="register.html">Cadastre-se</a></p>
     </div>
-
-    <script src="script.js"></script>
   </body>
 </html>

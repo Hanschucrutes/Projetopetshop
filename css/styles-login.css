@@ -1,6 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url("fundo-pet.jpg"); /* Substitua por sua imagem de fundo */
   background-size: cover;
   display: flex;
   justify-content: center;
