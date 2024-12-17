@@ -16,6 +16,8 @@
     </header>
     <main>
       <h2>Lista de Produtos</h2>
+
+      <!-- Filtros -->
       <div class="filters">
         <input type="text" id="search" placeholder="Buscar produtos..." />
         <select id="category-filter">
@@ -24,8 +26,68 @@
           <option value="cat">Gatos</option>
         </select>
       </div>
+
+      <!-- Lista de Produtos -->
       <div class="product-grid">
-        <!-- Produtos serão inseridos aqui pelo JavaScript -->
+        <!-- Produto 1 -->
+        <div class="product-card" data-category="dog">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Ração Premium para Cães"
+          />
+          <h3>Ração Premium para Cães</h3>
+          <p>Ração de alta qualidade para cães adultos.</p>
+          <span class="price">R$ 89,90</span>
+          <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="product-card" data-category="cat">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Ração Premium para Gatos"
+          />
+          <h3>Ração Premium para Gatos</h3>
+          <p>Ração balanceada para gatos adultos.</p>
+          <span class="price">R$ 79,90</span>
+          <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="product-card" data-category="dog">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Brinquedo de Borracha para Cães"
+          />
+          <h3>Brinquedo de Borracha para Cães</h3>
+          <p>Brinquedo durável e seguro para seu pet.</p>
+          <span class="price">R$ 29,90</span>
+          <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <!-- Produto 4 -->
+        <div class="product-card" data-category="cat">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Arranhador para Gatos"
+          />
+          <h3>Arranhador para Gatos</h3>
+          <p>Arranhador resistente para gatos se divertirem.</p>
+          <span class="price">R$ 59,90</span>
+          <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <!-- Produto 5 -->
+        <div class="product-card" data-category="dog">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Cama Acolchoada para Cães"
+          />
+          <h3>Cama Acolchoada para Cães</h3>
+          <p>Cama confortável para o descanso do seu cão.</p>
+          <span class="price">R$ 149,90</span>
+          <button>Adicionar ao Carrinho</button>
+        </div>
       </div>
     </main>
   </body>
